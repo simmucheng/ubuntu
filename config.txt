@@ -8,3 +8,16 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 get root
 sudo -i
+
+
+shadowsocks config
+{
+    "server":"sg1.vidss.pw",
+    "server_port":53275,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"my_password",
+    "timeout":300,
+    "method":"aes-256-cfb",
+    "fast_open": false
+}
