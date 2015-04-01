@@ -21,3 +21,5 @@ shadowsocks config
     "method":"aes-256-cfb",
     "fast_open": false
 }
+启动shadowsocks
+sudo sslocal -c /etc/shadowsocks.json -d start
